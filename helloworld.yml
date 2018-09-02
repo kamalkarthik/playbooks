@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+  - name: Hello world
+    shell: "echo $PATH"
+
